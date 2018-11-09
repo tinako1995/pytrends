@@ -59,8 +59,8 @@ or if you want to use proxies as you are blocked due to Google rate limit:
 Note: only https proxies will work, and you need to add the port number after the proxy ip address
 
 ### Build Payload
-    kw_list = ["Blockchain"]
-    pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
+    kw_list = ["Blockchain"] //kw=keyword
+    pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')//build_payload:funciton,cat=google trend的category, timeframe:他自己創的時間格式(?)
 
 Parameters
 
